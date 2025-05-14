@@ -1,0 +1,56 @@
+#order
+{
+    border: 1vh lightgreen solid;
+
+    display: grid;
+    grid-template-rows: 0.5fr 50vh;
+    border-radius: 1vh;
+
+    max-height: 1fr;
+}
+
+#time{
+    text-align: center;
+
+
+    padding: 2vh;
+    background-color: lightgreen;
+
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#items{
+    padding: 0.5vh 1vh;
+    height: 1fr;
+    max-height: 100%;
+    overflow:scroll;
+
+}
+
+#itemsingle p{
+    padding: 0.1vh;
+    margin: 0.5vh; 
+}
+
+#itemsingle ul{
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+    max-height: 100%;
+}
+
+hr{
+    margin: 2vh 0vh;
+}
+
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 1fr;
+    grid-gap: 1vh;
+}
